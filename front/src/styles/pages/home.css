@@ -1,0 +1,129 @@
+.h-main {
+    background-color: #373737;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+main div p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+/** --- ANIMACIÓN --- **/
+
+.item1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 194, 10);
+    margin-left: 5rem;
+    height: 2.1rem;
+    width: 0rem;
+    animation-name: pintura;
+    animation-duration: 7.7s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pintura{
+    0%  {width: 0rem;}
+    15% {width: 9rem;}
+    25% {width: 10rem;}
+    35% {width: 10rem;}
+    45% {width: 30rem;}
+    55% {width: 36rem;}
+    65% {width: 38rem;}
+    75% {width: 40rem;}
+    85% {width: 44em;} 
+    95% {width: 66rem;}
+    100% {width: 67rem;}
+}
+
+.item1 p {
+    color: rgb(255, 194, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    animation-name: frase;
+    animation-duration: 1s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes frase{
+    0% {color:rgb(255, 194, 10);}
+    100% {color:rgb(0, 0, 0);}
+}
+
+.item1 img {
+    position: absolute;
+    filter: saturate(2);
+    top: 16.84rem;
+    right: 72rem;
+    rotate: 270deg;
+    height: 8rem;
+    width: 8rem;
+    animation-name: rodillo;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rodillo {
+    0%  {right: 70rem;}
+    15% {right: 60rem;}
+    25% {right: 65rem;}
+    35% {right: 40rem;}
+    45% {right: 30rem;}
+    55% {right: 35rem;}
+    65% {right: 25rem;}
+    75% {right: 4rem;}
+    85% {right: 4rem;}
+    95% {right: 2rem;} 
+    100% {right: 2rem;}
+}
+
+/** --------------- **/
+
+.item2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 30px;
+    grid-column: 1 / 2;
+    width: 50rem;
+    left: 50rem;
+}
+
+.item2 img {
+    filter: saturate(2);
+    height: 30rem;
+    width: 50rem;
+}
+
+.item3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    padding: 30px;
+    position: absolute;
+    display: block;
+    bottom: -35.1rem;
+    left: 60rem;
+    height: 42.2rem;
+    width: 17rem;
+}
+
+.item3 img {
+    height: 15rem;
+    width: 17rem;
+}
+

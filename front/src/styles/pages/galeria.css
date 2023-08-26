@@ -1,0 +1,120 @@
+.g-main {
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+    margin-top: 15rem;
+    width: 81.8rem;
+    padding: 20px;
+}
+
+.cartel{
+    animation-name: titulo;
+    animation-delay: 5s;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: rgb(82, 82, 82);
+    border-style:groove solid;
+    border-color: rgb(82, 82, 82); 
+    padding: 20px;
+    
+}
+
+@keyframes titulo{
+    0%  {color: rgb(82, 82, 82); border-color: rgb(82, 82, 82); }
+    100% {color: rgb(255, 255, 255); border-color: rgb(255, 255, 255); }
+}
+
+.pared{
+    background-image: url(https://img.freepik.com/fotos-premium/fondo-es-pared-ladrillo-rojo-quemado_420001-6490.jpg);
+    filter:grayscale(1) brightness(30%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 84.3rem;
+    height: 120rem;
+}
+
+.lampara img{
+    animation-name: lampara;
+    animation-delay: 5s;
+    animation-fill-mode:forwards;
+    z-index: 1000;
+    position: absolute;
+    filter: brightness(0%);
+    height: 15rem;
+    width: 40rem;
+    top: 16rem;
+    right: 22rem;
+}
+
+@keyframes lampara{
+    0%  {filter: drop-shadow(.5rem 10rem 5rem rgba(255, 252, 80, 0));}
+    100% {filter: brightness(0%) drop-shadow(.5rem 10rem 6rem rgb(255, 252, 80));}
+}
+
+div ul{
+margin-bottom: 25px;
+}
+
+div ul li{
+    width: 11.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    margin: 15px;
+    color: white;
+}
+
+.obra-nombre{
+    display: inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;   
+    font-size: 25px;
+    text-align: center;
+}
+
+.precio{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: inline;
+text-align: center;
+background-color: #fdd716;
+padding: 8px;
+border-radius: 5px;
+}
+
+.galeria{
+   display: flex;
+   justify-content: space-between;
+}
+
+.obras{
+    display: flex;
+    margin: 6rem; 
+    height: 36.4rem;
+}
+
+
+.obra{
+    transition: transform .3s;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.221);
+    margin-right: 7rem;
+    width: 19rem;
+}
+
+.obra:hover{
+    transform: scale(1.1);
+}
+
+.cuadro{
+    height: 18rem;
+    width: 15rem;
+    margin: 15px;
+    border-style:groove;
+    border-color: rgb(144, 89, 12);
+    border-width: 15px;
+}

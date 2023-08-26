@@ -1,0 +1,64 @@
+.n-main {
+    background-color: #373737;
+    padding: 48px;
+}
+
+.historia h1 {
+    position: relative;
+    right: -20px;
+    bottom: -38px;
+    filter: drop-shadow(-5px -2px 1px #000000);
+    color: rgb(249, 199, 19);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.historia p {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 25px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.staff {
+    padding: 5px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #fdd716;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 15px;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+    padding: 2rem;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.persona h2,
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.persona p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.persona img {
+    border-radius: 50%;
+    box-shadow: -30px -15px 1px #f7e81a;
+    border: solid 2px black;
+    width: 12rem;
+}
